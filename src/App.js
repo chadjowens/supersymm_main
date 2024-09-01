@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
+import MyComponent from './components/VantaBackground';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello! From supersymmetry :)</h1>
+      <MyComponent />
+      {/* Other components or content */}
+    
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,3 +29,4 @@ function App() {
 }
 
 export default App;
+
